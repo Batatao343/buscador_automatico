@@ -76,7 +76,7 @@ st.title("Buscador de Locais no Google Maps")
 st.markdown("Insira sua Google API Key, os municípios, o nome do executivo e selecione os tipos de locais que deseja buscar.")
 
 # Inputs
-api_key = st.text_input("Google API Key", type="password")
+api_key = st.text_input("Google API Key")
 municipios_input = st.text_input("Municípios (separados por vírgula)", placeholder="Ex: São Paulo, Rio de Janeiro")
 executivo_comercial = st.text_input("Nome de quem está buscando")
 tipos_selecionados = st.multiselect("Selecione os tipos de locais (se vazio, usaremos todos)", options=TIPOS, default=TIPOS)
