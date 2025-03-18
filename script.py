@@ -73,7 +73,7 @@ def buscar_locais(municipio, place_type, api_key):
 
 # Streamlit UI
 st.title("Buscador de Locais no Google Maps")
-st.markdown("Insira sua Google API Key, os municípios, o nome do executivo e selecione os tipos de locais que deseja buscar.")
+st.markdown("Insira sua Google API Key, os municípios, o nome e selecione os tipos de locais que deseja buscar.")
 
 # Inputs
 api_key = st.text_input("Google API Key")
